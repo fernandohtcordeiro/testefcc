@@ -1,29 +1,30 @@
-# testefcchagas
+# 📊 Painel Simples de Clientes
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicação Vue 3 responsiva para cadastro, listagem e edição de clientes.  
+Desenvolvido como teste técnico com foco em UX/UI, responsividade e boas práticas.
 
-## Recommended IDE Setup
+## 🔧 Tecnologias
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Vue 3 + Vite
+- Vue Router
+- Pinia (Store)
+- Axios
+- CSS puro
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 📸 Funcionalidades
 
-## Project Setup
+- Autenticação com mock
+- Cadastro, edição, exclusão e busca de clientes
+- Integração com API externa (Swagger REST)
+- Validações de CPF e datas
+- Layout adaptado para desktop e mobile
 
-```sh
+## 🚀 Como rodar
+
+```bash
+# Instalar dependências
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Iniciar o servidor de desenvolvimento
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
