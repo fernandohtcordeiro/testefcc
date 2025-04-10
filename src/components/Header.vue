@@ -1,7 +1,10 @@
 <template>
   <header class="dashboard-header">
     <button class="menu-toggle" @click="$emit('toggle-menu')">☰</button>
-    <h1 class="header-title">📊 Dashboard Clientes</h1>
+    <router-link to="/clientes" class="header-title">
+  📊 Dashboard Clientes
+</router-link>
+
     <button @click="$emit('logout')" class="logout-btn">Sair</button>
   </header>
 </template>
@@ -17,6 +20,12 @@
   position: sticky;
   top: 0;
   z-index: 10;
+}
+.header-title {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .header-title {
